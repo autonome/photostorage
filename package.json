@@ -1,0 +1,28 @@
+{
+  "name": "flickr-filecoin",
+  "version": "0.0.1",
+  "description": "Save all your Flickr photos to Filecoin.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "fastify": "^3.22.1",
+    "fastify-formbody": "^5.1.0",
+    "fastify-static": "^4.4.2",
+    "handlebars": "^4.7.7",
+    "point-of-view": "^4.15.2",
+    "flickr-sdk": "^3.10.0",
+    "fastify-cookie": "^5.3.1",
+    "@fastify/session": "^6.2.1",
+    "fastify-secure-session": "^3.0.0"
+  },
+  "engines": {
+    "node": "^14.13.1 || >=16.0.0"
+  },
+  "repository": {
+    "url": "https://glitch.com/edit/#!/glitch-hello-node"
+  },
+  "license": "MIT",
+  "keywords": []
+}
